@@ -1,6 +1,7 @@
 # documentation
 we need to define what this repo is for.
 - working documents and output from the "Architecture Working Group"
+- Project Governing Board (PGB) meeting minites
 - OCA Objectives
 what else
 # Contribution Guidelines, Code of Conduct, etc
