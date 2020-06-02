@@ -3,7 +3,7 @@ What is in this repo:
 - Working documents and output from the "Architecture Working Group"
 - Project Governing Board (PGB) meeting minites
 - OCA Objectives
-what else
+
 # Contribution Guidelines, Code of Conduct, etc
 put explanation and links here
 
