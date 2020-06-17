@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-06-17T13:59:46.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="4LfgwlYiTiNydbSOsjFM" version="13.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-17T14:10:22.329Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="Du2LqVdz8fqeJQxAYxyb" version="13.2.6" type="github">
   <diagram id="B9lOtrirbngyGTcZE4m1" name="Page-1">
     <mxGraphModel dx="1172" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-18" value="Collaboration Platform(s)" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="80" width="340" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="esYa-NTaWCEVvL0tWDTw-10" value="Endpoint Posture Collection&lt;br&gt;(Message)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="esYa-NTaWCEVvL0tWDTw-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="170" as="sourcePoint" />
@@ -46,7 +49,7 @@
         <mxCell id="esYa-NTaWCEVvL0tWDTw-47" value="Threat Hunting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="830" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="esYa-NTaWCEVvL0tWDTw-48" value="VA / SACM Orchestrator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="esYa-NTaWCEVvL0tWDTw-48" value="VA&lt;br&gt;(SACM Orchestrator)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#A9C4EB;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-4" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -58,7 +61,7 @@
         <mxCell id="esYa-NTaWCEVvL0tWDTw-7" value="Posture Collection Service (Embedded version)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="vWFHUr5tTDaXBQ2kiWTk-4" vertex="1">
           <mxGeometry x="10" y="45.83333333333333" width="148.42" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="esYa-NTaWCEVvL0tWDTw-39" value="EDR Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="vWFHUr5tTDaXBQ2kiWTk-4" vertex="1">
+        <mxCell id="esYa-NTaWCEVvL0tWDTw-39" value="EDR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="vWFHUr5tTDaXBQ2kiWTk-4" vertex="1">
           <mxGeometry x="170" y="45.83333333333333" width="150" height="55" as="geometry" />
         </mxCell>
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-3" value="Actuators" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="vWFHUr5tTDaXBQ2kiWTk-4" vertex="1">
@@ -197,8 +200,8 @@
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-33" value="Operational&lt;br&gt;Playbooks&lt;br&gt;Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1350" y="225" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vWFHUr5tTDaXBQ2kiWTk-35" value="Telemetry Ingestion &amp;amp; Sense-Making" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="830" y="770" width="120" height="60" as="geometry" />
+        <mxCell id="vWFHUr5tTDaXBQ2kiWTk-35" value="Telemetry Ingestion / Sense-Making (SIEM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="820" y="770" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-36" value="Query/Response" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vWFHUr5tTDaXBQ2kiWTk-35" edge="1" target="esYa-NTaWCEVvL0tWDTw-33">
           <mxGeometry x="-0.2727" relative="1" as="geometry">
@@ -238,6 +241,33 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-10" value="Information Sharing" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-11" value="IACD Component" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-12" value="Industry Function" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-13" value="SACM Component" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-14" value="OCA Component" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="9Mfv4na3mFFrGlOWOb3b-15" target="vWFHUr5tTDaXBQ2kiWTk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-15" value="Human Decision&lt;br&gt;(Optional)" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;gradientColor=#A9C4EB;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="9Mfv4na3mFFrGlOWOb3b-19" target="9Mfv4na3mFFrGlOWOb3b-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Mfv4na3mFFrGlOWOb3b-19" value="Third Parties" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;gradientColor=#A9C4EB;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="190" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
