@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-17T14:29:25.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="T-AgaKDHTFeBI6R91Xf4" version="13.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-17T15:35:40.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="K-Tw2bQP8zjbvw0O89AD" version="13.2.6" type="github">
   <diagram id="B9lOtrirbngyGTcZE4m1" name="Page-1">
     <mxGraphModel dx="1172" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -205,6 +205,9 @@
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-33" value="Operational&lt;br&gt;Playbooks&lt;br&gt;Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1350" y="225" width="100" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="AGeJiFLoQ81j-lUDVO3M-1" value="Findings (Alerts)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.921;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="vWFHUr5tTDaXBQ2kiWTk-35" target="esYa-NTaWCEVvL0tWDTw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-35" value="Telemetry Ingestion / Sense-Making (SIEM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="820" y="770" width="160" height="60" as="geometry" />
         </mxCell>
@@ -236,17 +239,6 @@
         <mxCell id="9Mfv4na3mFFrGlOWOb3b-3" value="Alerts" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="950" y="910" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9Mfv4na3mFFrGlOWOb3b-4" value="Findings&lt;br&gt;(Alerts)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="vWFHUr5tTDaXBQ2kiWTk-35" edge="1">
-          <mxGeometry x="0.2818" relative="1" as="geometry">
-            <mxPoint x="921" y="570" as="targetPoint" />
-            <mxPoint x="870" y="780" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="920" y="630" />
-              <mxPoint x="921" y="630" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9Mfv4na3mFFrGlOWOb3b-10" value="Information Sharing" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="120" height="30" as="geometry" />
         </mxCell>
@@ -263,6 +255,9 @@
           <mxGeometry x="560" y="20" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Mfv4na3mFFrGlOWOb3b-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="1" source="9Mfv4na3mFFrGlOWOb3b-15" target="vWFHUr5tTDaXBQ2kiWTk-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AGeJiFLoQ81j-lUDVO3M-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=classic;startFill=1;" edge="1" parent="1" source="9Mfv4na3mFFrGlOWOb3b-15" target="AGeJiFLoQ81j-lUDVO3M-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Mfv4na3mFFrGlOWOb3b-15" value="Human Decision&lt;br&gt;(Optional)" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;gradientColor=#A9C4EB;align=center;" parent="1" vertex="1">
@@ -282,6 +277,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AGeJiFLoQ81j-lUDVO3M-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="vWFHUr5tTDaXBQ2kiWTk-19" target="AGeJiFLoQ81j-lUDVO3M-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vWFHUr5tTDaXBQ2kiWTk-19" value="Decision Making" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1150" y="430" width="200" height="140" as="geometry" />
@@ -314,6 +312,9 @@
             <mxPoint x="290" y="80" as="sourcePoint" />
             <mxPoint x="400" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AGeJiFLoQ81j-lUDVO3M-2" value="Reporting, Dashboarding, Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="500" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
