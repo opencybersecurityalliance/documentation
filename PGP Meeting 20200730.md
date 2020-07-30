@@ -51,7 +51,8 @@ Jason is going to call for opening a ballot on this project (see second action b
 Jory providing an update on the working group projects, though we only have five minutes left (good SCAP 2.0 discussion). A lot of this is being driven by work the OCA architecture working group has done, which is to build out some categorization of solutions. OCA has started to reach out for volunteers represented within the architecture working group, and outreach can be expanded. We've identified some gaps in coverage for these groups, and hope to close them. There is some concern that we may be experiencing continued issues with our communication tools.
 
 
-ACTIONS:
+## ACTIONS:
+
   * Add marketing report to standing PGB agenda goign forward; marketing team should also consider communication to the PGB distribution list for awareness
   * Charles (SCAP) embed link in proposal, send to Adam; Jason will attach to ballot
   * SCAP: Make current prototype available in a GitHub repository (location TBD, pending ballot)
