@@ -1,0 +1,3 @@
+# A happy place
+
+This architecture folder is to start working the documentation for tying components together so that...
