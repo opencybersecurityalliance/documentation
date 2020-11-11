@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T01:38:02.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Safari/537.36" etag="FQqfH_IAsoAz9KmcZ1-j" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-11T01:43:17.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="WsYUoWKhrk6IUBxb59Vf" version="13.9.3" type="github">
   <diagram id="Hi5DJu9hpjOhU4L-1nYH" name="Page-1">
-    <mxGraphModel dx="920" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
         </object>
         <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Collector&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;%description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Container Name" technology="e.g. Python, Flask" description="Description" id="t4L1e9NX0RFvFWcs3qe8-2">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85BBF0;fontColor=#ffffff;strokeColor=#78A8D8;resizable=0;arcSize=10;" parent="1" vertex="1">
-            <mxGeometry x="170" y="360" width="180" height="120" as="geometry" />
+            <mxGeometry x="280" y="360" width="180" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Health" c4Type="Component" c4Technology="technology" c4Description="Endpoint health and activity telemetry" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="t4L1e9NX0RFvFWcs3qe8-4">
