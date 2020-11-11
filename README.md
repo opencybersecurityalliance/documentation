@@ -16,7 +16,7 @@ The OCA Architecture Working Group organizes and discusses its activities in a [
 
 ## C4 diagrams
 
-See https://c4model.com/ for a description of Context, Container and Component diagrams
+See the [C4 model](https://c4model.com/) for a description of Context, Container and Component diagrams
 
 ![sacm-context.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-context.svg)<br>
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-context.drawio" target="_blank">Edit SACM Context</a>
