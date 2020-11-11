@@ -14,8 +14,23 @@ The OCA Architecture Working Group organizes and discusses its activities in a [
 
 # Architectural Images
 
+## C4 diagrams
+
+See https://c4model.com/ for a description of Context, Container and Component diagrams
+
+![sacm-context.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-context.svg)<br>
+<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-context.drawio" target="_blank">Edit SACM Context</a>
+
+![sacm-container.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-container.svg)<br>
+<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-container.drawio" target="_blank">Edit SACM container</a>
+
+![sacm-component.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component.svg)<br>
+<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component.drawio" target="_blank">Edit SACM component</a>
+
 ![C4 sacm-component-manager diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component-manager.svg)
-<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">Edit</a>
+<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">Edit manager component diagram</a>
+
+## Other orientations
 
 ![C4 Architecture-6.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/Architecture-6.svg)<br>
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FArchitecture-6.drawio" target="_blank">Edit</a>
@@ -26,11 +41,4 @@ The OCA Architecture Working Group organizes and discusses its activities in a [
 ![SACM_OCA_IACD.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/SACM_OCA_IACD.svg)<br>
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FSACM_OCA_IACD.drawio" target="_blank">Edit</a>
 
-![sacm-component.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component.svg)<br>
-<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component.drawio" target="_blank">Edit</a>
 
-![sacm-container.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-container.svg)<br>
-<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-container.drawio" target="_blank">Edit</a>
-
-![sacm-context.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-context.svg)<br>
-<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-context.drawio" target="_blank">Edit</a>
