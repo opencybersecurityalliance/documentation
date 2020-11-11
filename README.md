@@ -17,3 +17,5 @@ The OCA Architecture Working Group organizes and discusses its activities in a [
 ![Diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component-manager.draw.io)
 
 <a href="https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">Edit As New</a>
+
+<a href="https://app.diagrams.net/#MitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">Edit in diagrams.net</a>
