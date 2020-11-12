@@ -32,9 +32,9 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
   
 ---
 
-<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component.drawio" target="_blank">SACM component diagram</a>
+<a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-collector.drawio" target="_blank">SACM component diagram</a>
 
-![sacm-component.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component.svg)
+![sacm-component-collector.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component-collector.svg)
 
 ---
 
