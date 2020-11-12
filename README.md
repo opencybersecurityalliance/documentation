@@ -12,6 +12,9 @@ What is in this repo:
 
 The OCA Architecture Working Group organizes and discusses its activities in a [public mailing list](https://lists.oasis-open-projects.org/g/oca-architecture-wg) as well as the #architecture-wg channel on the OCA Slack workspace. [Click here to join us on Slack](https://docs.google.com/forms/d/1vEAqg9SKBF3UMtmbJJ9qqLarrXN5zeVG3_obedA3DKs/viewform?edit_requested=true) and [Click here to subscribe to the list](https://lists.oasis-open-projects.org/g/oca-architecture-wg).
 
+The branch we are using is under master, called doc-architecture.  Here is where you will find the latest working documents from the workgroup.  Issues are opened to track work underway.  Please add your comments under these issues.  We will merge changes into the 
+master once the architecture work group has discussed and agreed to the proposed changes.  Our project board shows the open actions items and issues that are currently being discussed.
+
 # Architectural Images
 
 ## C4 diagrams
@@ -60,3 +63,4 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FSACM_OCA_IACD.drawio" target="_blank">SACM OCA IACD diagram</a>
 
 ![SACM_OCA_IACD.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/SACM_OCA_IACD.svg)<br>
+=======
