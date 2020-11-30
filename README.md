@@ -25,42 +25,42 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-context.drawio" target="_blank"> SACM context diagram</a>
 
-![sacm-context.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-context.svg)
+![sacm-context.drawio diagram](./Architecture%20Documents/sacm-context.svg)
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-container.drawio" target="_blank">SACM container diagram</a> 
 
-![sacm-container.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-container.svg)
+![sacm-container.drawio diagram](./Architecture%20Documents/sacm-container.svg)
   
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-collector.drawio" target="_blank">SACM collector component diagram</a>
 
-![sacm-component-collector.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component-collector.svg)
+![sacm-component-collector.drawio diagram](./Architecture%20Documents/sacm-component-collector.svg)
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">SACM manager component diagram</a>
 
-![C4 sacm-component-manager diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/sacm-component-manager.svg)
+![C4 sacm-component-manager diagram](./Architecture%20Documents/sacm-component-manager.svg)
 
 
 ## Other orientations
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FArchitecture-6.drawio" target="_blank">Architecture 6 diagram</a>
    
-![C4 Architecture-6.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/Architecture-6.svg)<br>
+![C4 Architecture-6.drawio diagram](./Architecture%20Documents/Architecture-6.svg)<br>
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FSACM_OCA.drawio" target="_blank">SACM OCA diagram</a>
 
-![SACM_OCA.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/SACM_OCA.svg)<br>
+![SACM_OCA.drawio diagram](./Architecture%20Documents/SACM_OCA.svg)<br>
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2FSACM_OCA_IACD.drawio" target="_blank">SACM OCA IACD diagram</a>
 
-![SACM_OCA_IACD.drawio diagram](http://MitchellJThomas.github.io/documentation/Architecture%20Documents/SACM_OCA_IACD.svg)<br>
+![SACM_OCA_IACD.drawio diagram](./Architecture%20Documents/SACM_OCA_IACD.svg)<br>
 =======
