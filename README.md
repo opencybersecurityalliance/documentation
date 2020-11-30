@@ -25,25 +25,25 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-context.drawio" target="_blank"> SACM context diagram</a>
 
-![sacm-context.drawio diagram](./Architecture%20Documents/sacm-context.svg)
+![scap-context.drawio diagram](./Architecture%20Documents/scap-context.svg)
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-container.drawio" target="_blank">SACM container diagram</a> 
 
-![sacm-container.drawio diagram](./Architecture%20Documents/sacm-container.svg)
+![scap-container.drawio diagram](./Architecture%20Documents/scap-container.svg)
   
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-collector.drawio" target="_blank">SACM collector component diagram</a>
 
-![sacm-component-collector.drawio diagram](./Architecture%20Documents/sacm-component-collector.svg)
+![scap-component-collector.drawio diagram](./Architecture%20Documents/scap-component-collector.svg)
 
 ---
 
 <a href="https://app.diagrams.net/#HMitchellJThomas%2Fdocumentation%2Finitial-c4-diagrams%2FArchitecture%20Documents%2Fsacm-component-manager.drawio" target="_blank">SACM manager component diagram</a>
 
-![C4 sacm-component-manager diagram](./Architecture%20Documents/sacm-component-manager.svg)
+![C4 scap-component-manager diagram](./Architecture%20Documents/scap-component-manager.svg)
 
 
 ## Other orientations
