@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2020-11-11T01:43:17.358Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="WsYUoWKhrk6IUBxb59Vf" version="13.9.3" type="github">
+  <diagram id="Hi5DJu9hpjOhU4L-1nYH" name="Page-1">
+    <mxGraphModel dx="1518" dy="2279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Manager&lt;br&gt;&lt;/b&gt;[Container]&lt;/font&gt;" placeholders="1" name="Container Name" id="QiEPmHNPc2wEeexQ9wfS-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#828282;fillColor=none;fontColor=#000000;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=bottom;dashed=1;strokeWidth=1;perimeterSpacing=0;spacing=2;spacingTop=0;fontSize=10;dashPattern=8 8;container=0;" parent="1" vertex="1">
+            <mxGeometry x="300" y="-160" width="470" height="350" as="geometry">
+              <mxRectangle x="560" y="40" width="110" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Repository&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; font-size: 12px ; white-space: normal&quot;&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal ; font-size: 8px&quot;&gt;&lt;font style=&quot;line-height: 9.6px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255 , 255 , 255) ; white-space: normal&quot;&gt;%description%&lt;/div&gt;" placeholders="1" name="Container Name" description="Description" technology="e.g. PostgreSQL" id="QiEPmHNPc2wEeexQ9wfS-5">
+          <mxCell style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;strokeColor=#3C7FC0;fillColor=#438DD5;fontSize=12;fontColor=#ffffff;align=center;resizable=0;rounded=0;" parent="1" vertex="1">
+            <mxGeometry x="20" y="-40" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Reads from and writes to&lt;/b&gt;&lt;br&gt;[OpenDXL]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="QiEPmHNPc2wEeexQ9wfS-9">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;" parent="1" source="t4L1e9NX0RFvFWcs3qe8-7" target="QiEPmHNPc2wEeexQ9wfS-5" edge="1">
+            <mxGeometry x="-0.125" y="-10" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="480" y="80" as="sourcePoint" />
+              <mxPoint x="540" y="90" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Reads from and writes to&lt;/b&gt;&lt;br&gt;[OpenDXL]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="QiEPmHNPc2wEeexQ9wfS-10">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="t4L1e9NX0RFvFWcs3qe8-2" target="QiEPmHNPc2wEeexQ9wfS-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="481.1111111111111" y="290" as="sourcePoint" />
+              <mxPoint x="187.5" y="150" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Supplies collection instructions to&lt;br&gt;&lt;/b&gt;[OpenDXL]&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="QiEPmHNPc2wEeexQ9wfS-16">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="t4L1e9NX0RFvFWcs3qe8-6" target="t4L1e9NX0RFvFWcs3qe8-2" edge="1">
+            <mxGeometry x="0.4558" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="537" y="140" as="sourcePoint" />
+              <mxPoint x="570" y="290" as="targetPoint" />
+              <Array as="points" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Collector&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Container: %technology%]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;%description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Container Name" technology="e.g. Python, Flask" description="Description" id="t4L1e9NX0RFvFWcs3qe8-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#85BBF0;fontColor=#ffffff;strokeColor=#78A8D8;resizable=0;arcSize=10;" parent="1" vertex="1">
+            <mxGeometry x="280" y="360" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Health" c4Type="Component" c4Technology="technology" c4Description="Endpoint health and activity telemetry" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="t4L1e9NX0RFvFWcs3qe8-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="570" y="-130" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Orchestrator" c4Type="Component" c4Technology="technology" c4Description="Dispatches endpoint posture requests based on endpoint attributes" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="t4L1e9NX0RFvFWcs3qe8-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="570" y="30" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Accessor" c4Type="Component" c4Technology="technology" c4Description="Informs consumers of endpoint postures" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="t4L1e9NX0RFvFWcs3qe8-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="350" y="-130" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Aggregator" c4Type="Component" c4Technology="technology" c4Description="Aggregates endpoint postures" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="t4L1e9NX0RFvFWcs3qe8-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#3C7FC0;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="350" y="30" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;b&gt;Consumes collection results and posture attributes&lt;br&gt;&lt;/b&gt;[OpenDXL]&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="t4L1e9NX0RFvFWcs3qe8-9">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.547;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="t4L1e9NX0RFvFWcs3qe8-2" target="t4L1e9NX0RFvFWcs3qe8-8" edge="1">
+            <mxGeometry x="0.1058" y="-3" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="572.5471698113208" y="160" as="sourcePoint" />
+              <mxPoint x="315" y="370" as="targetPoint" />
+              <Array as="points" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Reads from and writes to&lt;/b&gt;&lt;br&gt;[OpenDXL]&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="t4L1e9NX0RFvFWcs3qe8-10">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="t4L1e9NX0RFvFWcs3qe8-8" target="QiEPmHNPc2wEeexQ9wfS-5" edge="1">
+            <mxGeometry x="-0.125" y="-10" width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="370" y="-19.24242424242425" as="sourcePoint" />
+              <mxPoint x="210" y="12.272727272727252" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

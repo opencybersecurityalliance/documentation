@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" modified="2020-11-11T02:28:19.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Safari/537.36" etag="bcC4V5_-FswrakKBNuN3" version="13.9.3" type="github">
+  <diagram id="H1svqjdci3bOrvgWgwCM" name="Page-1">
+    <mxGraphModel dx="1159" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Posture Assessment System&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;%description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="pKgoGPy08_WrCSynhjkS-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="335" y="310" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Threat Intelligence Sharing System&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;%description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="pKgoGPy08_WrCSynhjkS-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="100" y="80" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Configuration Policy Management System&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;%description%&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="pKgoGPy08_WrCSynhjkS-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="560" y="80" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Queries posture information from&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="pKgoGPy08_WrCSynhjkS-6">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;" parent="1" source="pKgoGPy08_WrCSynhjkS-2" target="pKgoGPy08_WrCSynhjkS-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="230" y="340" as="sourcePoint" />
+              <mxPoint x="500" y="220" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Queries posture information from&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" placeholders="1" name="Data Flow Item Name" technology="HTTP" id="pKgoGPy08_WrCSynhjkS-11">
+          <mxCell style="endArrow=block;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;" parent="1" source="pKgoGPy08_WrCSynhjkS-4" target="pKgoGPy08_WrCSynhjkS-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="230" y="350" as="sourcePoint" />
+              <mxPoint x="570" y="350" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="cF8mRu-nuy13BJoZz7Vw-4" value="Context diagram for Service Asset and Configuration Manager (SACM)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="480" width="430" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
