@@ -1,4 +1,4 @@
-# Archtiecture Terminology
+# Architecture Terminology
 This is a start to a terminology document that can support our architectural diagrams. The approach being taken is to stick to a taxonomic structure where possible, so that terms build upon other terms in a clear way. We've started off with the SCAPv2 prototype entities as expressed in our C4 diagrams.
 
 ## Terms
