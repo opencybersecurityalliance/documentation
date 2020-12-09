@@ -2,7 +2,7 @@
 This is a start to a terminology document that can support our architectural diagrams. The approach being taken is to stick to a taxonomic structure where possible, so that terms build upon other terms in a clear way. We've started off with the SCAPv2 prototype entities as expressed in our C4 diagrams.
 
 ## Terms
-**Accessor:** A Posture Assessment Manager component that informs consumers of endpoint postures.
+**Accessor:** A Posture Assessment Manager component that informs consumers of endpoint postures. It is the point of entry into the Poster Assessment Manager, providing an interface to external components.
 
 **Aggregator:** A Posture Assessment Manager component that aggregates computing resource postures.
 
@@ -22,7 +22,7 @@ This is a start to a terminology document that can support our architectural dia
 
 **Posture Assessment Manager (a.k.a. Manager):** A container that is responsible for receiving instructions from other software systems, identifying and invoking collection components, and persisting collected posture attributes to a repository. [QUESTION: Does the Manager persist collected posture attributes when the Collector is also doing that?]
 
-**Posture Assessment Repository (a.k.a. Repository):** A container that provides persistent storage and interface capable of recording previously collected posture information and providing that posture information when requested.
+**Posture Assessment Repository (a.k.a. Repository):** A container that provides persistent storage and interfaces capable of recording previously collected posture information and providing that posture information when requested.
 
 **Posture Assessment System:** A software system that carries out assessment of one or more targets, where assessment is related to at least one of vulnerability state, configuration state, or software load.
 
