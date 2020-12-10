@@ -43,23 +43,23 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 ### SACM manager component diagram
 
-![C4 sacm-component-manager diagram](Architecture%20Documents/sacm-component-manager.svg)
+![scap-component-manager diagram](Architecture%20Documents/scap-component-manager.svg)
 
 
 ## Other orientations
 
 ### Architecture 6 diagram
    
-![C4 Architecture-6.drawio diagram](Architecture%20Documents/Architecture-6.svg)<br>
+![Architecture-6.drawio diagram](Architecture%20Documents/Architecture-6.svg)
 
 ---
 
 ### SACM OCA diagram
 
-![SACM_OCA.drawio diagram](Architecture%20Documents/SACM_OCA.svg)<br>
+![SACM_OCA.drawio diagram](Architecture%20Documents/SACM_OCA.svg)
 
 ---
 
 ### SACM OCA IACD diagram
 
-![SACM_OCA_IACD.drawio diagram](Architecture%20Documents/SACM_OCA_IACD.svg)<br>
+![SACM_OCA_IACD.drawio diagram](Architecture%20Documents/SACM_OCA_IACD.svg)
