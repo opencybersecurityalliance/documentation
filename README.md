@@ -23,44 +23,43 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 ---
 
-### SACM context diagram
+### SCAP context diagram
 
-![sacm-context.drawio diagram](Architecture%20Documents/sacm-context.svg)
+![scap-context.drawio diagram](Architecture%20Documents/scap-context.svg)
 
 ---
 
-### SACM container diagram
+### SCAP container diagram
 
-![sacm-container.drawio diagram](Architecture%20Documents/sacm-container.svg)
+![scap-container.drawio diagram](Architecture%20Documents/scap-container.svg)
   
 ---
 
-### SACM collector component diagram
+### SCAP collector component diagram
 
-![sacm-component-collector.drawio diagram](Architecture%20Documents/sacm-component-collector.svg)
+![scap-component-collector.drawio diagram](Architecture%20Documents/scap-component-collector.svg)
 
 ---
 
-### SACM manager component diagram
+### SCAP manager component diagram
 
-![C4 sacm-component-manager diagram](Architecture%20Documents/sacm-component-manager.svg)
+![scap-component-manager diagram](Architecture%20Documents/scap-component-manager.svg)
 
 
 ## Other orientations
 
 ### Architecture 6 diagram
    
-![C4 Architecture-6.drawio diagram](Architecture%20Documents/Architecture-6.svg)<br>
+![Architecture-6.drawio diagram](Architecture%20Documents/Architecture-6.svg)
 
 ---
 
 ### SACM OCA diagram
 
-![SACM_OCA.drawio diagram](Architecture%20Documents/SACM_OCA.svg)<br>
+![SACM_OCA.drawio diagram](Architecture%20Documents/SACM_OCA.svg)
 
 ---
 
 ### SACM OCA IACD diagram
 
-![SACM_OCA_IACD.drawio diagram](Architecture%20Documents/SACM_OCA_IACD.svg)<br>
-=======
+![SACM_OCA_IACD.drawio diagram](Architecture%20Documents/SACM_OCA_IACD.svg)
