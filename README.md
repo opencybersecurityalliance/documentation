@@ -23,25 +23,25 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 ---
 
-### SACM context diagram
+### SCAP context diagram
 
 ![scap-context.drawio diagram](Architecture%20Documents/scap-context.svg)
 
 ---
 
-### SACM container diagram
+### SCAP container diagram
 
 ![scap-container.drawio diagram](Architecture%20Documents/scap-container.svg)
   
 ---
 
-### SACM collector component diagram
+### SCAP collector component diagram
 
 ![scap-component-collector.drawio diagram](Architecture%20Documents/scap-component-collector.svg)
 
 ---
 
-### SACM manager component diagram
+### SCAP manager component diagram
 
 ![scap-component-manager diagram](Architecture%20Documents/scap-component-manager.svg)
 
