@@ -37,13 +37,13 @@ See the [C4 model](https://c4model.com/) for a description of Context, Container
 
 ### SCAP collector component diagram
 
-![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2 Collector.svg)
+![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2%20Collector.svg)
 
 ---
 
 ### SCAP manager component diagram
 
-![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2 Manager.svg)
+![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2%20Manager.svg)
 
 
 ## Other orientations
