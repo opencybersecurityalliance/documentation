@@ -21,7 +21,7 @@ master once the architecture work group has discussed and agreed to the proposed
 
 This architectural diagram follows the [C4 model](https://c4model.com/) for a description of Contexts, Containers and Components.
 
-[ ![OCA architectural diagram](Architecture%20Documents/oca-c4-architecture-OCA%20Context%20Diagram.svg) ](http://htmlpreview.github.io/?Architecture%20Documents/oca-c4-architecture.html)
+[ ![OCA architectural diagram](Architecture%20Documents/oca-c4-architecture-OCA%20Context%20Diagram.svg) ](http://htmlpreview.github.io/?https://github.com/MitchellJThomas/documentation/blob/c4-diagrams-cuarta-parte/Architecture%20Documents/oca-c4-architecture.html)
 
 
 ## Other orientations
