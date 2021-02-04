@@ -22,7 +22,7 @@ master once the architecture work group has discussed and agreed to the proposed
 The following diagram follows the [C4 model](https://c4model.com/) for a description of Context, Container and Component diagrams.
 
 
-[![scap-context.drawio diagram](Architecture%20Documents/scap-context.svg)](Architecture%20Documents/oca-c4-architecture.html)
+[![scap-context.drawio diagram](Architecture%20Documents/oca-c4-architecture-OCA Context Diagram.svg)](Architecture%20Documents/oca-c4-architecture.html)
 
 
 ## Other orientations
