@@ -17,33 +17,11 @@ master once the architecture work group has discussed and agreed to the proposed
 
 # Architectural Images
 
-## C4 diagrams
+## The OCA Architectural diagram
 
-See the [C4 model](https://c4model.com/) for a description of Context, Container and Component diagrams
+This architectural diagram follows the [C4 model](https://c4model.com/) for a description of Contexts, Containers and Components.
 
----
-
-### SCAP context diagram
-
-![scap-context.drawio diagram](Architecture%20Documents/scap-context.svg)
-
----
-
-### SCAP container diagram
-
-![scap-container.drawio diagram](Architecture%20Documents/scap-container.svg)
-
----
-
-### SCAP collector component diagram
-
-![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2%20Collector.svg)
-
----
-
-### SCAP manager component diagram
-
-![scap-components.drawio diagram](Architecture%20Documents/scap-components-SCAPv2%20Manager.svg)
+[ ![OCA architectural diagram](Architecture%20Documents/oca-c4-architecture-OCA%20Context%20Diagram.svg) ](http://htmlpreview.github.io/?https://github.com/MitchellJThomas/documentation/c4-diagrams-cuarta-parte/Architecture%20Documents/oca-c4-architecture.html)
 
 
 ## Other orientations

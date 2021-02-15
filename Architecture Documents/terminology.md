@@ -2,6 +2,10 @@
 This is a start to a terminology document that can support our architectural diagrams. The approach being taken is to stick to a taxonomic structure where possible, so that terms build upon other terms in a clear way. We've started off with the SCAPv2 prototype entities as expressed in our C4 diagrams.
 
 ## Terms
+**Assessment** The evaluation of information or data
+
+**Collection** The gathering of information or data
+
 **Accessor:** A Posture Assessment Manager component that informs consumers of endpoint postures. It is the point of entry into the Poster Assessment Manager, providing an interface to external components.
 
 **Aggregator:** A Posture Assessment Manager component that aggregates computing resource postures.
