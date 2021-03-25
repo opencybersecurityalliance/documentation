@@ -16,9 +16,7 @@ the system behavior as the system responds to the user. A good use case shows se
 and reaches a specific goal.
 
 
-# Use Case 1: End User leans on their endpoint protection software as he
-
-# experiences a phishing attack, malware is prevented.
+# Use Case 1: End User leans on their endpoint protection software as he experiences a phishing attack, malware is prevented.
 
 Alice and Bob correspond often via their corporate e-mail. Bob sits down with a fresh cup of coffee to
 start his day and he sees a new message from Alice at the top of his inbox.
@@ -32,7 +30,7 @@ blocks we need to know about?” the software asks the corporate library of rule
 downloaded as no filters, blocks, proxy rules or firewall rules have been created in the last 16 hours.
 
 Our story continues with Bob - He is eager to follow up on a project so he does not notice that the
-“from” name Says Alice, but it is not displaying at it typically would. He clicks anyways, as he is looking
+“from” name is "Alice", but it is not displaying as it typically would. He clicks anyways, as he is looking
 forward to the next step in a project.
 
 Bob opens the e-mail to see “I found this link that I think will help us with our project, talk soon” –
@@ -50,8 +48,8 @@ those examples from his security awareness training. “I probably should not ha
 thought. He looked again at the tempting e-mail and saw that while it had Alice’s first name, it did not
 include a last name. And he hovered his mouse over the URL and realized, “...not a good site... uhoh.”
 
-Bob hasn’t seen anything else strange, he only clicked a lick and realized quickly that it was off topic – he
-closed the screen so fast, at this point Bob’s fears dwell and he does about his coffee – and his day.
+Bob hasn’t seen anything else strange, he only clicked a link and realized quickly that it was off topic – he
+closed the screen so fast, at this point Bob’s fears dwell and he goes about his coffee – and his day.
 
 In the background, however, the damage was done in a split second. Bob’s computer saw Bob click a link
 
@@ -75,7 +73,7 @@ Many people in Bob’s company are business and mission focused – they are not
 Because alerts have created a lot of extra calls and support costs, this security event – unknown
 software – does not pop up on Bob’s computer.
 
-Instead the endpoint software sends an alert to the Corporate logging tools.
+Instead the endpoint software sends an alert to the corporate logging tools.
 
 In about 15 minutes an analyst will see an alert that a new file was downloaded, that it scheduled a job
 on Bob’s computer, and that the software does not meet any known profiles for programs the corporate
@@ -94,7 +92,7 @@ Bob continues on with his day, none the wiser on how Malware is detected and end
 software works. When he speaks with Alice that afternoon, he forgets about the odd e-mail from that
 morning, and he doesn’t mention it to Alice.
 
-Bob thinks this is the first time he has caught a cyber attack knows as “phishing” on his own, he noticed
+Bob thinks this is the first time he has caught a cyber attack known as “phishing” on his own, he noticed
 the e-mail was wrong after he looked at the web site and thought it was not very useful. The next
 morning, Bob sees the open e-mail, he hesitantly clicks on the header of the message in his in-box and
 hits the delete key, removing the already-read email from his inbox.
@@ -110,7 +108,7 @@ corporate IT team.
 The Security team sees a new alert in their system monitoring tools. The alert is titled “User Reported
 Malware.”
 
-The Tier 1 security analyst reviews the new alert and analyses additional data. The Malware “catch”
+The Tier 1 security analyst reviews the new alert and analyzes additional data. The Malware “catch”
 yesterday on Bob’s computer and today’s, plus some intelligence from sources and from the malware
 company, have identified a new command and control network for a cyber bot (attack) network.
 
@@ -122,7 +120,7 @@ functions.
 The Security team creates a new blocking policy and tests it on their lab systems, and rolls it out to
 production the same day.
 
-The next time Bob clicks on an e-mail from these new threat actors, the web pages will not response
+The next time Bob clicks on an e-mail from these new threat actors, the web pages will not respond
 because of the blocks implemented by the corporate security team.
 
 Most of the time, Bob enjoys fast internet speeds and quick e-mail transfers with Alice on the exciting
@@ -183,7 +181,7 @@ really understand it.
 
 Bob’s technical lead sees that a new .NET patch was installed that day and he records this – one less
 step his team will have to perform, and it may create a new testing scenario for the software installation
-specialists. He makes a note to mention this on his next team call and he send the server information
+specialists. He makes a note to mention this on his next team call and he sends the server information
 over to the administrator who will begin the software install tomorrow.
 
 Bob and his team really don’t see how much automation was working in the background, but they know
