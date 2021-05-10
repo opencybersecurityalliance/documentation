@@ -1,0 +1,38 @@
+# package: https://oasis-open.org/openc2/oc2ls/v1.1
+# title: OpenC2 Language and Device Template
+# description: Template for creating OpenC2 v1.1 device schemas
+# comment: To use, delete unused Action/Target/Args/Results, update package, and assign id, name, and nsid for each profile
+# exports: ['OpenC2-Command', 'OpenC2-Response']
+# namespaces: {'ls': 'https://oasis-open.org/openc2/oc2ls-types/v1.1', 'nsid1': 'https://example.org/profile1', 'nsid2': 'https://example.org/profile2'}
+
+digraph G {
+  graph [fontname=Times, fontsize=12];
+  node [fontname=Arial, fontsize=8, shape=box, style=filled, fillcolor=lightskyblue1];
+  edge [fontname=Arial, fontsize=7, arrowsize=0.5, labelangle=45.0, labeldistance=0.9];
+  bgcolor="transparent";
+
+  n0 [label="Open\nC2\nCommand"]
+    n0 -> n3 [label="target", headlabel="1", taillabel="1"]
+    n0 -> n4 [label="args", headlabel="0..1", taillabel="1"]
+    n0 -> n5 [label="actuator", headlabel="0..1", taillabel="1"]
+  n1 [label="OpenC2\nResponse"]
+    n1 -> n6 [label="results", headlabel="0..1", taillabel="1"]
+  n3 [label="Target"]
+  n4 [label="Args"]
+  n5 [label="Actuator"]
+  n6 [label="Results"]
+    n6 -> n8 [label="pairs", headlabel="0..1", taillabel="1"]
+  n7 [label="Open\nC2\nEvent"]
+  n8 [label="Action\nTargets"]
+  n9 [label="Targets"]
+  n10 [label="Message"]
+    n10 -> n11 [label="headers", headlabel="0..1", taillabel="1"]
+    n10 -> n12 [label="body", headlabel="1", taillabel="1"]
+  n11 [label="Headers"]
+  n12 [label="Body"]
+    n12 -> n13 [label="openc2", headlabel="1", taillabel="1"]
+  n13 [label="Open\nC2\nContent"]
+    n13 -> n0 [label="request", headlabel="1", taillabel="1"]
+    n13 -> n1 [label="response", headlabel="1", taillabel="1"]
+    n13 -> n7 [label="notification", headlabel="1", taillabel="1"]
+}
