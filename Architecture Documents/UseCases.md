@@ -150,7 +150,7 @@ new ticket to the Security Team.
 A tier one analyst sees this recurring request in his team’s work queue. New Server, Vulnerability Scan
 request.
 
-The Analyst confirms the workflow step, right-clicking on the server’s name. He picks a fuill-featured
+The Analyst confirms the workflow step, right-clicking on the server’s name. He picks a full-featured
 vulnerability scan from a context sensitive list in his SOAR tool.
 
 The action creates a job on the vulnerability server.
@@ -191,3 +191,27 @@ That night the vulnerability scan team adds the new server to their regular rota
 vulnerability scanning tool checks each night.
 
 
+# Use Case 4: Threat Intelligence Enrichment
+
+Bob receives an email that contains a link to a domain hosting malicious content. Thankfully this domain has
+already been flagged by ThreatStrike, a threat intelligence provider that Bob's company subscribes to. The Threat
+Intel Platform employed by the Security team looks for changes in the content published by ThreatStrike every
+hour and has already made note of the malicious domain and instructed the on premise web proxy and DNS server
+to block any attempts to contact or resolve the domain. The filter running on Bob's email server also
+maintains a list of blocked domains, IP addresses, and URLs and after identifying the embedded link in the
+email and quarantines the email (making sure it never reaches Bob's inbox) and logs the event.
+
+The SIEM utilized by the security team receives the event sent by the email filter, and notes that the domain
+involved is not only marked as malicious, but the Threat Intel Platform has notated that the domain is used by
+a malicious threat actor that specializes in targeted and persistent attacks. This domain is effectively on a
+watchlist that raises the significance of any event it is involved in. Dave (the defender), who works in the SOC
+is assigned a ticket by the SIEM to investigate the event and see if there are any additional actions the 
+Security team should take.
+
+Dave starts by logging into the SIEM and reviewing the log entry for the email filter. From there he is able
+to link to the email filter and pull up the quarantined email Bob received. Through the SIEM he requests all
+available information on the flagged domain, which sends a request to the TIP. The TIP makes requests via 
+external API from multiple intelligence and tool vendors, gathering information on when the domain was
+registered, the threat actor associated with the domain by ThreatStrike, and a report on that actor's activities
+from another provider. A summary of that information is visible in the SIEM, but Dave decides to read the full 
+report via a link to the TIP.
