@@ -1,1 +1,364 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T12:54:44.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="zautuNWkx63bbAKBX9k-" version="14.7.6" type="github"><diagram id="bGN6vNjQPZyxZSRcRnmK" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-09T12:55:48.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="Mo0LbMpkdZ5pvrgXUP5F" version="14.7.6" type="github">
+  <diagram id="bGN6vNjQPZyxZSRcRnmK" name="Page-1">
+    <mxGraphModel dx="2234" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gg_HWF9aju2NbQD389dX-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="140" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" parent="1" source="Gg_HWF9aju2NbQD389dX-2" target="Gg_HWF9aju2NbQD389dX-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Bob" c4Type="Person" c4Description="End User" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-2">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
+            <mxGeometry x="359" y="10" width="110.00000000000001" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF8000;strokeWidth=2;entryX=0.789;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Gg_HWF9aju2NbQD389dX-3" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1032" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="BobsPC" c4Type="Component" c4Technology="technology" c4Description="Bob&#39;s Workstation  " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="190" y="190" width="470" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#66B2FF;strokeWidth=3;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#66B2FF;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="520" />
+              <mxPoint x="110" y="230" />
+              <mxPoint x="190" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#66B2FF;entryX=0.61;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="374" y="480" />
+              <mxPoint x="333" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.423;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=#66B2FF;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="480" />
+              <mxPoint x="540" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#66B2FF;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="530" />
+              <mxPoint x="50" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.65;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;strokeColor=#66B2FF;strokeWidth=3;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=3;strokeColor=#66B2FF;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="Gg_HWF9aju2NbQD389dX-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-5" value="Assess Endpoint Posture &lt;br&gt;Action (Ontology)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#66B2FF;startArrow=classic;startFill=1;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="8Jl_BN_nvmNz4NoZMmrh-3" edge="1">
+          <mxGeometry x="0.1414" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="540" />
+              <mxPoint x="670" y="540" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-6" value="Collect Posture Attributes &lt;br&gt;Action (Ontology)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=3;strokeColor=#66B2FF;" parent="1" source="Gg_HWF9aju2NbQD389dX-5" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry x="0.5139" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="520" />
+              <mxPoint x="780" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="SOC SIEM" c4Type="Software System" c4Description="SIEM System" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="334" y="500" width="160" height="102" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Gg_HWF9aju2NbQD389dX-6" target="Gg_HWF9aju2NbQD389dX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-6" value="SOC Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="359" y="695" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-7" value="&lt;ul&gt;&lt;li&gt;Correlate Events&lt;br&gt;&lt;/li&gt;&lt;li&gt;Detect Malware&lt;br&gt;&lt;/li&gt;&lt;li&gt;Isolate Endpoint&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="420" y="695" width="39" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Gg_HWF9aju2NbQD389dX-8" target="Gg_HWF9aju2NbQD389dX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="Gg_HWF9aju2NbQD389dX-8" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="280" />
+              <mxPoint x="889" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Malware protection scanner (Files)" c4Type="Software System" c4Description="Endpoint Protection Software " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="184" y="300" width="245" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Gg_HWF9aju2NbQD389dX-9" target="Gg_HWF9aju2NbQD389dX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="Gg_HWF9aju2NbQD389dX-9" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="557" y="280" />
+              <mxPoint x="779" y="280" />
+              <mxPoint x="779" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF8000;strokeWidth=2;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="1" source="Gg_HWF9aju2NbQD389dX-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Malware protection scanner (Email)" c4Type="Software System" c4Description="Email Protection Software " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="447" y="300" width="220" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-10" value="Orchestrate Posture Assessment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;startArrow=classic;startFill=1;" parent="1" source="Gg_HWF9aju2NbQD389dX-10" target="8Jl_BN_nvmNz4NoZMmrh-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="930" />
+              <mxPoint x="980" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-11" value="Orchestrate Posture Collection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=3;startArrow=classic;startFill=1;" parent="1" source="Gg_HWF9aju2NbQD389dX-10" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="960" />
+              <mxPoint x="1140" y="960" />
+              <mxPoint x="1140" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="SOC SOAR" c4Type="Software System" c4Description="SOAR System" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="100" y="780" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF8000;strokeWidth=3;" parent="1" source="Gg_HWF9aju2NbQD389dX-11" target="Gg_HWF9aju2NbQD389dX-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="840" />
+              <mxPoint x="532" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-12" value="Collect Posture&lt;br&gt;Attributes Action&lt;br&gt;(Ontology)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=3;strokeColor=#FF8000;jumpStyle=arc;" parent="1" source="Gg_HWF9aju2NbQD389dX-11" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Threat Intelligence" c4Type="Software System" c4Description="Threat Intelligence System" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="600" y="780" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-13" value="Block File Event (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-16" value="&lt;h1&gt;Malware Detection &amp;nbsp;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;SIEM Component&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;Diagram&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="10" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-19" value="Open Incident&amp;nbsp;&lt;br&gt;Response&amp;nbsp;&lt;br&gt;Case" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="602" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-21" value="Block File Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="551" y="670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-22" value="Blacklist URL Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="551" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-23" value="Quarantine&lt;br&gt;Device&lt;br&gt;Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="550" y="735" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-26" value="Query Device&amp;nbsp;&lt;br&gt;(STIXShifter)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Posture Attributes" c4Type="Software System" c4Description="Posture Collection System" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Gg_HWF9aju2NbQD389dX-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1331.5" y="185" width="160" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-29" value="Block File Event (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="454" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-31" value="Missing Items&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Action: Collect Posture Collection from scanners&lt;/li&gt;&lt;li&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;Action: Query&amp;nbsp;&lt;/span&gt;Posture&lt;span style=&quot;font-size: 12px&quot;&gt;&amp;nbsp;&lt;/span&gt;Attributes from PCS&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1301.5" y="85" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-32" value="Questions&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Does PCS have a syslog and send events?&lt;/li&gt;&lt;li&gt;Does PCS support STIXShifter for queries?&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1318.5" y="315" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-43" value="Block File Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-45" value="Quarantine&lt;br&gt;Device&lt;br&gt;Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="550" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-49" value="Block File Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="667" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-51" value="Quarantine&lt;br&gt;Device&lt;br&gt;Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="580" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="310" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-58" value="Block File Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-59" value="Quarantine&lt;br&gt;Device&lt;br&gt;Action (Ontology)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-55" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gg_HWF9aju2NbQD389dX-60" value="June 9, 2021" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="20" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-2" value="Query/&lt;br&gt;Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="602" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-4" value="Query/&lt;br&gt;Response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="690" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=14;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="420" width="420" height="420" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="name" c4Type="Person" c4Description="Person" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Dhb5XoXpESQX-bRSr9Vz-7">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
+            <mxGeometry x="1259.5" y="420" width="87" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Workstation" c4Type="Component" c4Technology="technology" c4Description="Infrastructure" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Dhb5XoXpESQX-bRSr9Vz-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1244" y="550" width="118.5" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="name" c4Type="Software System" c4Description="Security Software " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Dhb5XoXpESQX-bRSr9Vz-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1168BD;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#1168BD;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1244" y="640" width="128.5" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-10" value="KEY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1217" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="OCA " c4Type="Software System" c4Description="OCA Component" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="Dhb5XoXpESQX-bRSr9Vz-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#8A8A8A;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
+            <mxGeometry x="1360" y="460" width="145" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-12" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1392.5" y="581" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-13" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="1392.5" y="528.5" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-14" value="Malware Scanner Flows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="550" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-15" value="Security&amp;nbsp;&lt;br&gt;Apps Flows&lt;br&gt;Via Ontology" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1395" y="605" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-16" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;strokeColor=#33FF33;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="650" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-17" value="Security&amp;nbsp;&lt;br&gt;Apps Flows&lt;br&gt;Via STIXshifter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="682" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-18" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;strokeColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="1253" y="740" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-19" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="740" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-20" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;strokeColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="740" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-21" value="SIEM Flows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1253" y="770" width="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-22" value="SOAR Flows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1362.5" y="760" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhb5XoXpESQX-bRSr9Vz-23" value="Threat Intelligence Flows" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1472.5" y="760" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-7" value="Perform Posture&lt;br&gt;Attribute Collection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fillColor=#ffe6cc;strokeWidth=2;strokeColor=#FF8000;" parent="1" source="8Jl_BN_nvmNz4NoZMmrh-1" target="Gg_HWF9aju2NbQD389dX-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Posture Collection System&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Software capable of collecting security-relevant posture attributes.&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="8Jl_BN_nvmNz4NoZMmrh-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="890" y="280" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="8Jl_BN_nvmNz4NoZMmrh-8" value="Collect Posture&lt;br&gt;Attributes Action&lt;br&gt;(Ontology)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="8Jl_BN_nvmNz4NoZMmrh-3" target="8Jl_BN_nvmNz4NoZMmrh-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Posture Assessment System&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;[Software System]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Software capable of determining whether collected posture attributes conform to security policy(ies).&lt;/font&gt;&lt;/div&gt;" placeholders="1" name="Software System Name" description="Description" id="8Jl_BN_nvmNz4NoZMmrh-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0067BA;fontColor=#FFFFFF;strokeColor=#005DA8;resizable=0;" parent="1" vertex="1">
+            <mxGeometry x="890" y="490" width="180" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-5" value="Publish collection&amp;nbsp;results" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="260" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-6" value="Perform Posture&lt;br&gt;Attribute Collection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;entryX=0.424;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeWidth=3;strokeColor=#FF8000;" parent="1" target="Gg_HWF9aju2NbQD389dX-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="260" />
+              <mxPoint x="288" y="260" />
+            </Array>
+            <mxPoint x="990" y="280" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iiK5QARLEU5hqtZNG0m4-14" value="Publish collection&amp;nbsp;results" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="721" y="165" width="250" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
