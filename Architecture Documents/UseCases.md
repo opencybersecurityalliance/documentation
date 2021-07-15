@@ -17,34 +17,38 @@ and reaches a specific goal.
 
 # Dramatis Personae
 
-## Alice
+## Users
+
+### Alice
 A product manager at Initech. She is currently working on the Gruntmaster 6000 project with Bob.
 
-## Bob
-
+### Bob
 A manager in the Software Engineering department at Initech. As part of engineering he has local
 administrative rights to his workstation (unlike most users at Initech) since he manages his own development
 tools. Bob does not have a development background, and tends to rely on his subordinates to handle technical
 details.
 
-## Charlie
-
+### Charlie
 A Tier 1 SOC Analyst at Initech. He's familiar with the SIEM and the security controls in use but has not
 had a great deal of training with threat intelligence or malware behavior. He leans on the tools available
 in the SOC to help determine what immediate actions should be taken and what should be investigated further
 by a more experienced analyst. 
 
-## Dave
+### Dave
 A Tier 2 Analyst at Initech. Dave has more experience and training in forensics and incident response,
 such as a GIAC Reverse Engineering Malware (GREM) certification. Dave is the only Tier 2 Analyst at Initech,
 and his time is extrely limited given the number of incidents they experience. He rarely looks into events
 that haven't been brought to his attention by some other person or system.
 
-# Systems
+## Systems
 
-## Security Information and Event Management (SIEM) 
+### Security Information and Event Management (SIEM)
+A product that collects and analyzes security events on all aspects of the network, environment, device and 
+application to support threat detection, compliance, and incident management.
 
-## Threat Intelligence Platform (TIP)
+### Threat Intelligence Platform (TIP)
+A software product that collects, stores, and collates threat intelligence data from multiple sources inside
+and outside of an organization.
 
 # Use Case 1: End User leans on their endpoint protection software as he experiences a phishing attack, malware is prevented.
 
