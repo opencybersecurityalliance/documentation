@@ -15,6 +15,40 @@ A good use case describes how users perform tasks. It features the user’s poin
 the system behavior as the system responds to the user. A good use case shows sequencing and steps
 and reaches a specific goal.
 
+# Dramatis Personae
+
+## Users
+
+### Alice
+A product manager at Initech. She is currently working on the Gruntmaster 6000 project with Bob.
+
+### Bob
+A manager in the Software Engineering department at Initech. As part of engineering he has local
+administrative rights to his workstation (unlike most users at Initech) since he manages his own development
+tools. Bob does not have a development background, and tends to rely on his subordinates to handle technical
+details.
+
+### Charlie
+A Tier 1 SOC Analyst at Initech. He's familiar with the SIEM and the security controls in use but has not
+had a great deal of training with threat intelligence or malware behavior. He leans on the tools available
+in the SOC to help determine what immediate actions should be taken and what should be investigated further
+by a more experienced analyst. 
+
+### Dave
+A Tier 2 Analyst at Initech. Dave has more experience and training in forensics and incident response,
+such as a GIAC Reverse Engineering Malware (GREM) certification. Dave is the only Tier 2 Analyst at Initech,
+and his time is extrely limited given the number of incidents they experience. He rarely looks into events
+that haven't been brought to his attention by some other person or system.
+
+## Systems
+
+### Security Information and Event Management (SIEM)
+A product that collects and analyzes security events on all aspects of the network, environment, device and 
+application to support threat detection, compliance, and incident management.
+
+### Threat Intelligence Platform (TIP)
+A software product that collects, stores, and collates threat intelligence data from multiple sources inside
+and outside of an organization.
 
 # Use Case 1: End User leans on their endpoint protection software as he experiences a phishing attack, malware is prevented.
 
@@ -75,27 +109,46 @@ software – does not pop up on Bob’s computer.
 
 Instead the endpoint software sends an alert to the corporate logging tools.
 
-In about 15 minutes an analyst will see an alert that a new file was downloaded, that it scheduled a job
-on Bob’s computer, and that the software does not meet any known profiles for programs the corporate
-IT team has seen before.
+In about 15 minutes a tier 1 SOC analyst, Charlie,  will see an alert that a new file was downloaded, that it
+scheduled a job on Bob’s computer, and that the software does not meet any known profiles for programs the
+corporate IT team has seen before.
 
-The tier one security analyst confirms a recommendation to quarantine the new file. The security
+Charlie confirms a recommendation to quarantine the new file. The security
 operations team and Bob’s malware protection module on his endpoint have detected the result of
-Bob’s click and the file has been quarantined on Bob’s computer. The new file is added to the corporate
-database of bad software. All the endpoints in Bob’s company receive this update in their twice-hourly
-poll of the corporate Malware protection system’s database. Everyone in Bob’s company who has their
-computer on knows within 45 minutes of Bob’s login that the file he downloaded is bad. Any new
-experiences with this file will immediately block it, instead of waiting for the IT team to review and
-confirm the new policy.
+Bob’s click and the file has been quarantined on Bob’s computer. 
+
+The new file hash is added to the Threat Intelligence Platform (TIP) and marked as malicious. All the
+endpoints in Bob’s company receive this update in their twice-hourly poll of the TIP's indicator export. Everyone in
+Bob’s company who has their computer on knows within 45 minutes of Bob’s login that the file he downloaded
+is bad. Any new experiences with this file will immediately block it, instead of waiting for the IT team to
+review and confirm the new policy. Because the file has already executed the SOC analyst opens a ticket for
+a tier two analyst to investigate the incident beyond just blocking the file.
 
 Bob continues on with his day, none the wiser on how Malware is detected and endpoint protection
 software works. When he speaks with Alice that afternoon, he forgets about the odd e-mail from that
 morning, and he doesn’t mention it to Alice.
 
+A few hours later the tier 2 analyst, Dave, starts investigating the event. He starts with the link to the 
+initial alert in the SIEM Charlie included in the ticket. From there he is able to pull up the relevant
+endpoint logs, and notices the file being downloaded from an external site. Through the SIEM he requests all
+available information the site, which sends a request to the TIP. Since the initial incident the domain the
+malware was downloaded from has been flagged by by ThreatStrike, a threat intelligence provider that Bob's 
+company subscribes to. The TIP makes requests via external API from multiple intelligence and tool vendors,
+gathering information on when the domain was registered, the threat actor associated with the domain by
+ThreatStrike, and a report on that actor's activities from another provider. A summary of that information
+is visible in the SIEM, but Dave decides to read the full report via a link to the TIP. 
+
+The report notes that the domain is used by a malicious threat actor that specializes in targeted and persistent
+attacks. This domain is effectively on a watchlist that raises the significance of any event it is involved in.
+Dave initiates an out-of-band update of the email filtering system, making sure it has the latest list of
+blacklisted domains which includes the one in Bob's email and others associated with the same campaign. Dave
+starts writing up a memo to all employees to be wary of odd looking email, and reminds everyone to complete
+the internal security training.
+
 Bob thinks this is the first time he has caught a cyber attack known as “phishing” on his own, he noticed
 the e-mail was wrong after he looked at the web site and thought it was not very useful. The next
 morning, Bob sees the open e-mail, he hesitantly clicks on the header of the message in his in-box and
-hits the delete key, removing the already-read email from his inbox.
+hits the delete key, removing the already-read email from his inbox. 
 
 
 ## Use Case 2: Firewall... from the end user point of view
@@ -150,7 +203,7 @@ new ticket to the Security Team.
 A tier one analyst sees this recurring request in his team’s work queue. New Server, Vulnerability Scan
 request.
 
-The Analyst confirms the workflow step, right-clicking on the server’s name. He picks a fuill-featured
+The Analyst confirms the workflow step, right-clicking on the server’s name. He picks a full-featured
 vulnerability scan from a context sensitive list in his SOAR tool.
 
 The action creates a job on the vulnerability server.
@@ -189,5 +242,3 @@ they are a step closer to system acceptance because they have a “green” vuln
 
 That night the vulnerability scan team adds the new server to their regular rotation of systems that the
 vulnerability scanning tool checks each night.
-
-
