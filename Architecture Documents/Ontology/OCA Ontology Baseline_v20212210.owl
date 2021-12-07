@@ -1,0 +1,1417 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/"
+     xml:base="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/v_20212210"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2019-12-20/AgentOntology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label">
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition_source -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition_source">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/elucidation -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/elucidation">
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology -->
+
+    <rdf:Description rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology">
+        <rdfs:label xml:lang="en">is curated in ontology</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/term_editor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/term_editor">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologyrepository.com/DenialOfService -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/DenialOfService">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttack"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DoS</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cyber Attack in which some Agent seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to a Computer Network.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Denial-of-service_attack</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denial of Service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/SYNFlood -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/SYNFlood">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/DenialOfService"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Denial of Service in which an Agent sends a succession of SYN requests to a target&apos;s system in an attempt to consume enough server resources to make the system unresponsive to legitimate traffic.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/SYN_flood</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label>SYN Flood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Act -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Act">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000182"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ActOfEvasion -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfEvasion">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Intentional Act of attempting to avoid an entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Act of Evasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ActOfSearching -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfSearching">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/IntentionalAct"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Intentional Act of trying to find an entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Act of Searching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ActiveStasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ActiveStasis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfArtifactOperationality"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Stasis of Artifact Operationality that holds during a Temporal Interval when an Artifact is realizing one or more of its designed Artifact Functions (especially one of its primary functions).</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Active Stasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/AggregationFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/AggregationFunction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Algorithm in which the values of multiple rows are grouped together to form a single value of more significant meaning.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Aggregate_function</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregation Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/AggregationProcess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/AggregationProcess">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which the values of multiple rows are grouped together to form a single value of more significant meaning.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregation Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Anonymization -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Anonymization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution that encrypts or removes personally identifiable information from data sets in order to maintain the anonymity of the people described by the data.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Data_anonymization</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anonymization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ApplicationBinaryInterface -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ApplicationBinaryInterface">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactDesignContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABI</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Artifact Design that is a specification for how to enable a Computer Library and/or Operating System to interact with a Computer Program.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Application_binary_interface</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Application Binary Interface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Artifact -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">An Object that was designed by some Agent to realize a certain Function.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactDesignContentEntity -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactDesignContentEntity">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Directive Information Content Entity that is a specification of an object, manifested by an agent, intended to accomplish goals, in a particular environment, using a set of primitive components, satisfying a set of requirements, subject to constraints.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>http://en.wikipedia.org/wiki/Design</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Artifact Design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactFunction">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Function that inheres in some Artifact in virtue of that Artifact being designed to be used in processes that require that Function to be realized.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Artifact Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ArtificialLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ArtificialLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Language"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Language that is developed through conscious planning and premeditation, rather than one that was developed through use and repetition.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Constructed_language</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:example_of_usage>Esperanto</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:example_of_usage>Python Programming Language</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Artificial Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/AssemblyLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/AssemblyLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/LowLevelProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language that prescribes a canonical form of communicating instructions which have been translated from a High-Level Programming Language and which can be translated into some Machine Language.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assembly Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Authentication -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Authentication">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which the identity of a user is verified.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Authentication</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Authentication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/BroadbandCommunicationArtifactFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/BroadbandCommunicationArtifactFunction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CommunicationArtifactFunction"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Communication Artifact Function that is realized in relatively high Bit transfer rates.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Broadband Communication Artifact Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ChecksumMeasurement -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ChecksumMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ratio Measurement Information Content Entity that is a measurement of the number of bits in a transmission unit that is included with the unit so that the receiver can check to see whether the same number of bits arrived.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://searchsecurity.techtarget.com/definition/checksum</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checksum Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CodeCompilation -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CodeCompilation">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which some Information Bearing Entity that uses a Compiled Language is translated into some Information Bearing Entity that uses a Low-Level Programming Language.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Code Compilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CommunicationArtifactFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CommunicationArtifactFunction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ArtifactFunction"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">An Artifact Function that is realized in a process in which meaningful signs are conveyed from one entity to another.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Communication Artifact Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CompiledLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CompiledLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/HighLevelProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language that prescribes a canonical form of communicating instructions to be executed by a Processing Unit in such a way that the Information Bearing Entity that uses this Programming Language must first be the input of some Code Compilation.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Compiled_language</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compiled Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CompressedDataFormat -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CompressedDataFormat">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/FileFormat"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A File Format that prescribes a way of encoding information which uses fewer Bits than the original encoding of that information.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Data_compression</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A .zip file</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compressed Data Format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputerAggregate -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerAggregate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Object Aggregate that consists of Computers.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputerLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ArtificialLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Artificial Language that prescribes a canonical form of communiction within or between Computers.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/MechanicalProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Mechanical Process that is comprised of a sequence of simple operations performed by a Central Processing Unit or some Computer Program according to the instructions of some Algorithm.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Program Execution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputerServicingFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerServicingFunction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CommunicationArtifactFunction"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Communication Artifact Function that is realized in the process of a Computer providing a service to some client Computer over a Computer Network.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Servicing Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputerSystem -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Object Aggregate that has a Computer and some Computer Peripheral Device as members.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ComputingBandwidthMeasurement -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ComputingBandwidthMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ratio Measurement Information Content Entity that measures the rate of Bit transfer over time.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computing Bandwidth Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Constraint -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Constraint">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes a limitation of an entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ControlSystem -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ControlSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">An Artifact that is designed to manage, command, direct, or regulate the behavior of at least one other Artifact.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Control_system</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Control System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttack -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttack">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActOfArtifactEmployment"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Act of Artifact Employment in which an Agent uses a computer to engage in a malicious act.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyber Attack</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttackVulnerability -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttackVulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Vulnerability"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vulnerability that is realized by a Cyber Attack interfering with or destroying a device&apos;s ability to function normally.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyber Attack Vulnerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DataExchangeLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DataExchangeLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Language that prescribes a way of communicating information between multiple Computer Programs in a common format.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Data_exchange</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Exchange Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DataOffsetDesignator -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DataOffsetDesignator">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/RatioMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Ratio Measurement Content Entity that measures the size of an Information Header in number of Bits.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Offset Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DataRequest -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DataRequest">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DataTransfer"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Data Transfer in which a sender requests some data from the receiver of that request.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Request</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DataRequestAcknowledgement -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DataRequestAcknowledgement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DataTransfer"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Data Transfer in which the receiver of a Data Request sends an acknowledgment that the request has been received.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Request Acknowledgement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DataTransfer -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DataTransfer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which an Information Content Entity inhering in some Information Bearing Entity is sent to some other Information Bearing Entity, which now bears that Information Content Entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DeactivatedStasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DeactivatedStasis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfArtifactOperationality"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Stasis of Artifact Operationality that holds during a Temporal Interval when an Artifact is not realizing any of its designed Artifact Functions (or at least not realizing any of its primary functions).</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Deactivated Stasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DefaultStasis -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DefaultStasis">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfArtifactOperationality"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Stasis of Artifact Operationality in which an Artifact&apos;s functions are configured to some preselected settings.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Default Stasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DesignationSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DesignationSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes how some entities should be designated.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Name System</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Designation Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution that opens, closes, reads, or writes a Digital File.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital File Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileSystem -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical File System</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/File_system</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital File System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DomainName -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DomainName">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that designates a resource on a Computer Network according to the rules of the Domain Name System.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Domain_name</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:elucidation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A domain name might designate a personal computer, a server, a web site, or other web service. Generally, one of the purposes of a domain name is designate a computer resource while hiding the (less human friendly) IP address from end users.</CommonCoreOntologies:elucidation>
+        <CommonCoreOntologies:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.google.com</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DomainNameRegistrar -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DomainNameRegistrar">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Organization that manages the reservation of Internet Domain Names.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Domain_name_registrar</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Name Registrar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DomainWatchlist -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DomainWatchlist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Watchlist"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Watchlist which prescribes which Domain Names require close surveillance.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domain Watchlist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/DownloadingProcess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/DownloadingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/FileTransfer"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A File Transfer in which a Computer File is retrieved from some remote Computer and stored on some user&apos;s local Computer.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Downloading Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ElectromagneticPulseVulnerability -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ElectromagneticPulseVulnerability">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Vulnerability"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMP Vulnerability</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Vulnerability that is realized by an Electromagnetic Pulse disrupting, damaging, or destroying one or more capabilities of an Artifact.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electromagnetic Pulse Vulnerability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/EncodingScheme -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/EncodingScheme">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Algorithm"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Algorithm that prescribes how an Information Content Entity in one format can be converted into another format.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Code</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoding Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Encryption -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Encryption">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which the content of an Information Bearing Entity is rendered unintelligible to unauthorized accessors.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encryption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/EncryptionAlgorithm -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/EncryptionAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/EncodingScheme"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Encoding Scheme that prescribes how an Information Content Entity in some intelligible format can be converted into a format in such a way that only authorizes parties can access it.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Encryption</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encryption Algorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileAppending -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileAppending">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Digital File Process that adds content to an existing Digital File.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Appending</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileClosing -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileClosing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Digital File Process that makes a Digital File unavailable for modification.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Closing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileFormat -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileFormat">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes how Bits are used to encode some Information Content Entity in some Digital Storage Device.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/File_format</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileOpening -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileOpening">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Digital File Process that makes a Digital File available for modification.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Opening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileReading -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileReading">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Digital File Process in which the content of a Digital File serves as input to an Information Processing Artifact.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Reading</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileSystemDirectory -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileSystemDirectory">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directory</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folder</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Object Aggregate that consists of an aggregate of Digital Files within the context of a Digital File System.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Directory_(computing)</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File System Directory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileTransfer -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileTransfer">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DataTransfer"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Data Transfer in which a Computer File is transmitted from one Computer to another.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FileWriting -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FileWriting">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DigitalFileProcess"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Digital File Process that outputs information to a new Digital File.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File Writing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/FlowControlDirective -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/FlowControlDirective">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes the rate of data transmission between two nodes to prevent a fast sender from overwhelming a slow receiver.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Flow_control_(data)</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flow Control Directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/HighLevelProgrammingLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/HighLevelProgrammingLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language with strong abstraction from the language necessary for a set of instructions to be executed by a Processing Unit.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-Level Programming Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InformationAggregateSpecification -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InformationAggregateSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes some ordering (sequence, arrangement) of Information Content Entities.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Aggregate Specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InformationBearingArtifact -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InformationBearingArtifact">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Artifact"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">An Artifact that carries an Information Content Entity and is designed to do so using a particular format or structure.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/ArtifactOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Information Bearing Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InformationTransferProtocol -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InformationTransferProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity that prescribes the format in which some Information Content Entity should be transferred between two Computers or other devices.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information Transfer Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InternetProtocolAddress -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InternetProtocolAddress">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IP Address</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that designates a Computer or other device that is connected to the Internet Protocol Suite.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Internet_protocol_suite</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet Protocol Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InternetServiceProvider -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InternetServiceProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ServiceProvider"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Service Provider that provides services for accessing and using the Internet.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Internet_service_provider</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internet Service Provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/InterpretedLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/InterpretedLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/HighLevelProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language that prescribes a canonical form of communicating instructions to be executed by a Processing Unit in such a way that those instructions do not need to be compiled into Machine Language instructions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Interpreted_language</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interpreted Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Language -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Language">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Directive Information Content Entity that prescribes a canonical format for communication.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/LowLevelProgrammingLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/LowLevelProgrammingLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language that provides little or no abstraction from the language necessary for a set of instructions to be executed by a Processing Unit.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Level Programming Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/MachineLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/MachineLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/LowLevelProgrammingLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Programming Language that prescribes a canonical form of communicating instructions to be executed directly by a Processing Unit.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Machine_code</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/MarkupLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/MarkupLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Language that prescribes a canonical form of annotating the structure of some text.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Markup_language</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markup Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/MechanicalProcess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/MechanicalProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Process that is the realization of some Disposition of an Artifact</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Mechanical Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/MediaAccessControlAddress -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/MediaAccessControlAddress">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAC Address</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that designates a Computer and is assigned to network interfaces for communications at the data link layer of a network segment.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/MAC_address</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Media Access Control Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/NetworkCommunicationWaitingStatus -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/NetworkCommunicationWaitingStatus">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActiveStasis"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Active Stasis in which some resource on a network is waiting to receive messages from other resources it is connected to on that network.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instances of this class can be combined with instances of other classes to represent various TCP states, including: CLOSE WAIT, CLOSING, FIN-WAIT-1, FIN-WAIT-2, LAST ACK, SYN RECEIVED, SYN SENT, and TIME WAIT.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Communication Waiting Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionClosed -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionClosed">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DeactivatedStasis"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Deactivated Stasis in which multiple resources connected over a network are not connected via their designed communication functions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Connection Closed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionEstablished -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionEstablished">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ActiveStasis"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Active Stasis in which multiple resources connected over a network are connected via their designed communication functions.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Connection Established</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionTermination -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/NetworkConnectionTermination">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which two resources, which were previously connected over a network, cease to be connected.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Network Connection Termination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/OpenSystemsInterconnectionCategory -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/OpenSystemsInterconnectionCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/NominalMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OSI Category</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Nominal Measurement Information Content Entity that categorizes pieces of hardware or software based on their communication functionality.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/OSI_model</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Systems Interconnection Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Pathname -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Pathname">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that designates a Digital File or File System Directory by specifying where that item is located within a hierarchy of File System Directories.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:example_of_usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C:/john.doe/Documents/myDocument.doc</CommonCoreOntologies:example_of_usage>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathname</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Phishing -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Phishing">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CyberAttack"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Cyber Attack wherein an Agent sends an electronic message purporting to be from a reputable sender in order to induce its recipients to reveal sensitive information.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Phishing</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phishing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ProgrammingLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ProgrammingLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerLanguage"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Language that prescribes a canonical form of communicating instructions to be executed by some Processing Unit or by a Computer Program.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Programming Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/RemoteAccess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/RemoteAccess">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerProgramExecution"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Program Execution in which an Information Processing Artifact at one location connects with some other Information Processing Artifact at some other, remote location.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Remote_access</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remote Access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/RootDirectory -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/RootDirectory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/FileSystemDirectory"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A File System Directory that is the first or top-most directory in a hierarchy of File System Directories.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Root_directory</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Root Directory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/SITAGuidanceTemplate -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/SITAGuidanceTemplate">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SITA Guidance Template</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/STIXComponentCategory -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/STIXComponentCategory">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/NominalMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STIX Component Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/ServiceProvider -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/ServiceProvider">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/Organization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">An Organization whose purpose is to provide a service to other Agents.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source>https://en.wikipedia.org/wiki/Service_provider</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Service Provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/SignalBandwidthMeasurement -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/SignalBandwidthMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/IntervalMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Interval Measurement Information Content Entity that measures the range of some Frequency in the transmission of a signal.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Signal Bandwidth Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/SiteControlAndDataAcquisitionSystem -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/SiteControlAndDataAcquisitionSystem">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ControlSystem"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCADA System</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Control System that is designed to allow high-level process supervisory management of resources by means of computers, networked data communications, and graphical user interfaces.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:definition_source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/SCADA</CommonCoreOntologies:definition_source>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Site Control And Data Acquisition System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfArtifactOperationality -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfArtifactOperationality">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfRealizableEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition xml:lang="en">A Stasis of Realizable Entity that holds during a Temporal Interval when an Artifact&apos;s designed set of Artifact Functions (or at least its primary functions) or the realizations of those functions remain unchanged.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <rdfs:label xml:lang="en">Stasis of Artifact Operationality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfDigitalStorage -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfDigitalStorage">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfInformationConcretization"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Stasis of Information Bearing that has as participants some Digital Storage Device and some Information Quality Entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:elucidation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The purpose of this Stasis is to represent that some Digital Storage Device (e.g., a hard drive or RAM) stores (at a given time) a Computer Program. We cannot say that a Computer Program (an IBA) is part_of some hard drive or RAM, because although the hard drive or RAM might take on qualities in order to encode the Program, the Program itself is not identical to any of those qualities.</CommonCoreOntologies:elucidation>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stasis of Digital Storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfInformationConcretization -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfInformationConcretization">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/StasisOfSpecificallyDependentContinuant"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Stasis of Generically Dependent Continuant that has as participants some Information Bearing Entity and some Information Content Entity.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stasis of Information Bearing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/UploadingProcess -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/UploadingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/FileTransfer"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A File Transfer in which a Computer File stored on some user&apos;s local Computer is transferred to and stored on some remote Computer.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uploading Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/UrgentNominalMeasurement -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/UrgentNominalMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/NominalMeasurementInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Nominal Measurement Information Content Entity that measures some entity as needing urgent attention.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urgent Nominal Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/UserGroupIdentifier -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/UserGroupIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GID</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that identifies a group of registered users of a computer system for the purposes of managing access to that system.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User Group Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/UserIdentifier -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/UserIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/CodeIdentifier"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:alternative_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UID</CommonCoreOntologies:alternative_label>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Code Identifier that identifies the account of a registered user of a computer system.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/Watchlist -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/Watchlist">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Directive Information Content Entity which prescribes which individuals, groups, or items require close surveillance.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watchlist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/WebServicingFunction -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/WebServicingFunction">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/ComputerServicingFunction"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Computer Servicing Function that is realized in the process of providing a service to some client Computer over the Internet.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Servicing Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/WindowSizeDirective -->
+
+    <owl:Class rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/WindowSizeDirective">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/FlowControlDirective"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</obo:IAO_0000412>
+        <CommonCoreOntologies:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Flow Control Directive that prescribes the rate of data transmission in an Information Transfer Process.</CommonCoreOntologies:definition>
+        <CommonCoreOntologies:is_curated_in_ontology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ontologyrepository.com/CommonCoreOntologies/Domain/CyberOntology</CommonCoreOntologies:is_curated_in_ontology>
+        <CommonCoreOntologies:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brian Donohue</CommonCoreOntologies:term_editor>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Window Size Directive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/Administrative_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/Administrative_Rights">
+        <rdfs:subClassOf rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrative Rights</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/Administrator_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OpenCyberSecurityAlliance/Ontology/Administrator_Role">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrator Role</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
