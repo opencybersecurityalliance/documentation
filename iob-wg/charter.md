@@ -1,4 +1,4 @@
-# Indictors of Behavior (IoB) WG Charter
+# Indicators of Behavior (IoB) WG Charter
 
 ## 1. Project Name
 
