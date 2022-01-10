@@ -7,6 +7,7 @@ What is in this repo:
 - Project Governing Board (PGB) meeting minutes
 - Technical Steering Committee meeting minutes
 - Marketing work group minutes
+- Materials for the IOB Working Group
 
 # Architecture Working Group
 
