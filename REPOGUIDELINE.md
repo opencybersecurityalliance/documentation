@@ -107,7 +107,7 @@ Required information/files for the first 6 months of a new repo:
 
 ### Procedures and Actions
 
-#### Brach Protection
+#### Branch Protection
 
 Setup GitHub branch protection.
 
