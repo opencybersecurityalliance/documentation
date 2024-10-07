@@ -33,7 +33,7 @@ repo (minimal requirements) to meet the standard requirements. Optionally, the
 repo can meet the bonus requirements to achieve an outstanding status.
 
 4. Retirement: If a repo is no longer in use, any TSC member (usually the
-maintainer of the project) can request a TSC voting to achieve it. The voting
+maintainer of the project) can request a TSC voting to archive it. The voting
 communicates with every TSC member to check dependent projects and repos.
 
 ## Repository Minimal Requirements
