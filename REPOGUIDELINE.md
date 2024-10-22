@@ -38,6 +38,9 @@ communicates with every TSC member to check dependent projects and repos.
 
 ## Repository Minimal Requirements
 
+Use the OCA repo template to initialize a repo with key markdown files provided
+and repo-specific information to be added.
+
 Required information/files for the first 6 months of a new repo:
 
 - GitHub Repo Metadata
@@ -88,6 +91,7 @@ Required information/files for the first 6 months of a new repo:
     - [if code repo] How to deploy?
     - [if code repo] How to configure?
     - [if code repo] How to use the API?
+    - [if code repo] How to enable debug mode if implemented?
     - [if data repo] How to use the data?
     - Reference to talks/presentations
 - Governance [if code repo]
@@ -113,16 +117,16 @@ Setup GitHub branch protection.
 
 #### Continuous Integration
 
-GitHub actions for:
+[GitHub Actions](https://docs.github.com/en/actions) for:
 
-- Linting
+- Linting, example library: [black](https://github.com/psf/black)
 - Unit tests
 - Integration tests
 - Code coverage
 
 #### Continuous Delivery
 
-One or more delivery channels to setup:
+One or more delivery channels to setup via [GitHub Actions](https://docs.github.com/en/actions):
 
 - Docker Hub
 - Package repository
@@ -155,4 +159,4 @@ One or more delivery channels to setup:
         - Disclosure procedure
         - Vulnerability contact
         - Patching/mitigation procedure
-- OpenSSF scorecard
+- [OpenSSF scorecard](https://securityscorecards.dev/)
